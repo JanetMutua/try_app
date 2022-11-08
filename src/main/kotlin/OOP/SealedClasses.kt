@@ -8,7 +8,8 @@ fun main(args: Array<String>){
     testTrainAi((trainAI.deepLearning("2.0")))
 }
 
-
+// does not require an else statement in the when conditional because the expected results are known
+// restricts the type hierarchy
 sealed class trainAI{
     class visualAI : trainAI()
     class timerAI : trainAI()

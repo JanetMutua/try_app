@@ -28,7 +28,7 @@ class Staff(name:String){
     }
 }
 
-//secondary constructors; alternative of adding a default conctructor
+//secondary constructors; alternative of adding a default constructor
 
 open class Worker(name:String){
     constructor(name: String, age: Int): this(name) //default constructors
